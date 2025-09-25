@@ -2,7 +2,7 @@
 
 ## 🖥️ GPU Profiler API
 
-This CLI interface can be invoked from bash to invoke the application whose energy is to be estimated. For developing this tool, we have used NVIDIA NSIFHT COMPUTE  to extract the performance metrics and instruction-level statistics of the task being profiled. The extracted data from the profiler is processed into a required format and subsequently fed as input features for a pre-trained estimator, which then estimates the power consumption based on these low-level CPU metrics.
+This CLI interface can be invoked from bash to invoke the application whose energy is to be estimated. For developing this tool, we have used NVIDIA Nsight Compute (https://developer.nvidia.com/nsight-compute)  to extract the performance metrics and instruction-level statistics of the task being profiled. The extracted data from the profiler is processed into a required format and subsequently fed as input features for a pre-trained estimator, which then estimates the power consumption based on these low-level CPU metrics.
 
 **Key requirements and notes about the tool are as below:** <br>
 ● Supported OS: Windows, Linux <br>
