@@ -89,7 +89,7 @@ gpu_profiler -m min -a "C:\Program Files\Nuke15.0v4\Nuke15.0.exe"
 </pre>
 
 <pre>
-cpu_profiler -m avg -a "C:\Program Files\Nuke15.0v4\Nuke15.0.exe"   
+gpu_profiler -m avg -a "C:\Program Files\Nuke15.0v4\Nuke15.0.exe"   
 </pre>
 
 <pre>
@@ -97,7 +97,7 @@ gpu_profiler -m peak -a "C:\Program Files\Nuke15.0v4\Nuke15.0.exe"
 </pre>
 
 <pre>
-cpu_profiler -m all  -a "C:\Program Files\Nuke15.0v4\Nuke15.0.exe" 
+gpu_profiler -m all  -a "C:\Program Files\Nuke15.0v4\Nuke15.0.exe" 
 </pre>
 
 <pre>
@@ -106,7 +106,7 @@ gpu_profiler -m all -a "C:\Program Files\Nuke15.0v4\Nuke15.0.exe"  -s  "D:/nuke_
 
 Note that the above cases use Windows as the host OS. 
 
-(b) Semi-manual/manual Mode
+(b) Semi-manual Mode
 
 This option can be exercised if the profiling of the tool has already been completed using VTune and the performance counter values are available in a CSV format. In this case, the -a switch should not be used, and the -c switch can be used to point to the .csv file for energy estimation. If the .csv file is available in the local directory, then the -c switch can also be ignored, as shown in the first example. 
 
