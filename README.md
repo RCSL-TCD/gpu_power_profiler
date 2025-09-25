@@ -126,11 +126,12 @@ gpu_profiler -m peak
 <pre>
 gpu_profiler -m all -c &lt;path\to\.csv\file.csv&gt;
 </pre>
+## ⚠️  "No kernel is profiled" Error.
+The script is either running on the CPU, or it is not GPU-compatible.
+## 🔄  Fixing Nuke CPU Fallback: Restore GPU Processing and Profiling 
 
 
-
-
-
+If Nuke falls back to executing scripts on the CPU even when the GPU option is selected, the GPU kernel cannot be profiled. To resolve the problem, re-enable or force Nuke to use the GPU, or remove a corrupted  Nuke preference.nk file. Delete the corrupted preferences file, then restart Nuke and enable script execution on the GPU
 
 
 
