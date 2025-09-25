@@ -24,7 +24,7 @@ Creating a virtual environment is highly recommended to prevent dependency confl
 <pre> 
 ```power shell
 git clone git@github.com:RCSL-TCD/gpu_power_profiler.git
-cd cpu_power_profiler
+cd gpu_power_profiler
 pip install . 
 </pre>
 
